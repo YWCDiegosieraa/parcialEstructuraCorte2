@@ -1,6 +1,6 @@
 let pila = [];
 
-// Agregar elemento (push)
+// Agregar objeto a la pila
 function agregar(nombre, edad) {
     let persona = {
         nombre: nombre,
@@ -8,20 +8,20 @@ function agregar(nombre, edad) {
     };
 
     pila.push(persona);
-    console.log("Agregado:", persona);
+    console.log("Se agregó:", persona);
 }
 
-// Eliminar elemento (pop)
+// Eliminar objeto de la pila
 function eliminar() {
     if (pila.length > 0) {
         let eliminado = pila.pop();
-        console.log("Eliminado:", eliminado);
+        console.log("Se eliminó:", eliminado);
     } else {
         console.log("La pila está vacía");
     }
 }
 
-// Prueba
+// PRUEBAS
 agregar("Orlando", 30);
 agregar("Maria", 25);
 eliminar();

@@ -1,11 +1,21 @@
-# Parcial Estructuras de Datos
+# Parcial Estructura de Datos - Corte 2
 
-## Descripción
-Simulación de:
+## 📌 Descripción
+Este proyecto simula:
 
-- Pila con objetos
-- Cola con números
+- Una pila usando objetos (nombre y edad)
+- Una cola usando números
 
-## Imagen
+## ⚙️ Funcionalidades
 
-![Imagen](https://via.placeholder.com/150)
+### 🔹 Pila
+- Agregar elementos (push)
+- Eliminar elementos (pop)
+
+### 🔹 Cola
+- Agregar elementos (enqueue)
+- Eliminar elementos (dequeue)
+
+## 🖼️ Imagen
+
+![Estructuras](https://via.placeholder.com/300)

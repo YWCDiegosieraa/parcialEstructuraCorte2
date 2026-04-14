@@ -1,12 +1,12 @@
 let cola = [];
 
-// Agregar (enqueue)
+// Agregar número a la cola
 function agregarNumero(num) {
     cola.push(num);
     console.log("Se agregó:", num);
 }
 
-// Eliminar (dequeue)
+// Eliminar número de la cola
 function eliminarNumero() {
     if (cola.length > 0) {
         let eliminado = cola.shift();
@@ -16,7 +16,7 @@ function eliminarNumero() {
     }
 }
 
-// Prueba
+// PRUEBAS
 agregarNumero(10);
 agregarNumero(20);
 eliminarNumero();
