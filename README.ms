@@ -1,21 +1,19 @@
-# Parcial Estructura de Datos - Corte 2
+# 📚 Parcial Estructuras de Datos - Corte 2
 
 ## 📌 Descripción
-Este proyecto simula:
+Este proyecto implementa dos estructuras de datos fundamentales:
 
-- Una pila usando objetos (nombre y edad)
-- Una cola usando números
+- 🔹 Pila (Stack) usando objetos
+- 🔹 Cola (Queue) usando números
 
-## ⚙️ Funcionalidades
+---
 
-### 🔹 Pila
-- Agregar elementos (push)
-- Eliminar elementos (pop)
+## 🧠 Funcionalidades
 
-### 🔹 Cola
-- Agregar elementos (enqueue)
-- Eliminar elementos (dequeue)
+### 🔹 Pila (pila.js)
+- Agrega elementos tipo objeto
+- Elimina elementos (LIFO)
 
-## 🖼️ Imagen
-
-![Estructuras](https://via.placeholder.com/300)
+Ejemplo:
+```js
+{ nombre: "Orlando", edad: 30 }
